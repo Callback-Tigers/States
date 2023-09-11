@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import StateBasics from "./Components/StateBasics";
+import Sum from "./Components/Sum";
+import Counter from "./Components/Counter";
+import StateObject from "./Components/StateObject";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+
+    return (
+        <div>
+            {/* <StateBasics /> */}
+            {/* <Sum /> */}
+            {/* <Counter /> */}
+            <StateObject />
+        </div>
+    );
 }
 
 export default App;
