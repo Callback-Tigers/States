@@ -6,7 +6,7 @@ let a = 10
 
 
 const Sum = () => {
-   const [count, setCount] = useState(0) // 1
+   const [count, setCount] = useState(10) // 11
 
    // let and const doubt
    
@@ -41,3 +41,10 @@ const Sum = () => {
 
 
 export default Sum;
+
+
+
+
+// c = 100 
+// // c = c+1  
+// c = 200
